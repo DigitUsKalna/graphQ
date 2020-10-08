@@ -35,7 +35,7 @@ def graph_fit(funcToUse, xData, yData, save_it = False, save_path = '.\img.png '
     plt.plot(xData,yData,'r*')
 
     if save_it:
-        plt.savafig(save_path)
+        plt.savefig(save_path)
 
     
     
