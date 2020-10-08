@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'graphQ',         # How you named your package folder (MyLib)
   packages = ['graphQ'],   # Chose the same as "name"
-  version = '1.0.4-beta',      # Start with a small number and increase it with every change you make
+  version = '1.0.5-beta',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'a library to handel graphs fitting',   # Give a short description about your library
   author = 'Dibyakanti Ta',                   # Type in your name
   author_email = 'dibyakanti22@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/d-kanti/graphQ',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/d-kanti/graphQ/archive/1.0.4-beta.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/d-kanti/graphQ/archive/1.0.5-beta.tar.gz',    # I explain this later on
   keywords = ['graph', 'physics', 'fit'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'numpy',

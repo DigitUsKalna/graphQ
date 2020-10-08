@@ -7,7 +7,7 @@ def mean(list_provided):
     return sum(list_provided)/len(list_provided)
 
 
-def graph_fit(funcToUse, xData, yData, save_it = False, save_path = '.\img.png ', x_min=False, y_min = False, y_max=False, x_max=False,x_step = 0.01):
+def graph_fit(funcToUse, xData, yData, save_it = False, save_path = '.\img.png', x_min=False, y_min = False, y_max=False, x_max=False,x_step = 0.01):
 
     if x_min and x_max and y_min and y_max :
         pass
