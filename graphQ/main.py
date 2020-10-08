@@ -31,7 +31,7 @@ def graph_fit(funcToUse, xData, yData, save_it = False, save_path = '.\img.png '
 
     xFit = np.arange(x_min,x_max,x_step)
 
-    plt.plot(xFit,func(xFit, *popt))
+    plt.plot(xFit,funcToUse(xFit, *popt))
     plt.plot(xData,yData,'r*')
 
     if save_it:
