@@ -27,5 +27,5 @@ jobs:
         TWINE_USERNAME: d-kanti
         TWINE_PASSWORD: Dibya897
       run: |
-        python setup.py sdist bdist_wheel
+        python setup.py sdist 
         twine upload dist/*
