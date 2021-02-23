@@ -120,10 +120,12 @@ def auto_fit(xData, yData,x_step=False):
 
         plt.plot(xFit,funcToUse(xFit, *popt))
         plt.plot(xData,yData,'r.')
-        plt.title(str(funcToUse).split()[1])
+        plt.title(str(funcToUse).split()[1][-6:])
         plt.show()
     except:
         plt.plot(xData,yData)
+        plt.title("normal")
+        plt.plot(xData,yData,'r.')
         plt.show()
     
     
