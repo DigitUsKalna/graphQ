@@ -21,4 +21,4 @@ Then use the ```auto_fit()``` function, it takes two lists as inputs, first bein
 
 and here is the output
 
-![image](./fig.png)
+![image](./fig.png.png)
