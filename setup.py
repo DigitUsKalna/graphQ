@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'graphQ',         # How you named your package folder (MyLib)
   packages = ['graphQ'],   # Chose the same as "name"
-  version = '2.0.3',      # Start with a small number and increase it with every change you make
+  version = '2.0.7',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'a library to handel graphs fitting',   # Give a short description about your library
   author = 'Dibyakanti Ta',                   # Type in your name
